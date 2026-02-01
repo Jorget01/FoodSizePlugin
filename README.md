@@ -1,3 +1,6 @@
+
+# [DOWNLOAD](https://modrinth.com/plugin/foodsize)
+
 # FoodSizePlugin
 
 **A Minecraft Paper plugin that changes player size based on eaten food!**
