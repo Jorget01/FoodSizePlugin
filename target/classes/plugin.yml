@@ -1,0 +1,28 @@
+name: FoodSizePlugin
+version: 1.0.0
+description: Plugin that changes player size based on eaten food
+author: Jorget
+api-version: 1.21
+main: ru.example.foodsizeplugin.FoodSizePlugin
+soft-depend: []
+load: POSTWORLD
+
+commands:
+  size:
+    description: Show or set player size
+    usage: /size [percent]
+  resetsize:
+    description: Reset player size to normal
+    usage: /resetsize
+  sizereload:
+    description: Reload plugin configuration
+    usage: /sizereload
+    permission: foodsizeplugin.admin
+
+permissions:
+  foodsizeplugin.admin:
+    description: Permission to use admin commands
+    default: op
+  foodsizeplugin.bypass:
+    description: Bypass size limits
+    default: op

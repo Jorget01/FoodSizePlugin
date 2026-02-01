@@ -1,0 +1,42 @@
+# FoodSizePlugin Messages Configuration
+# Configure text messages that players see
+
+# Message when size increases
+# %size% - size in percent
+message-increase: "§6Your size increased to %size%% of normal!"
+
+# Message when size decreases
+message-decrease: "§6Your size decreased to %size%% of normal!"
+
+# Message when size is reset
+message-reset: "§aYour size has been reset to normal!"
+
+# Message when viewing current size
+message-current: "§aYour current size: §6%size%%"
+
+# Message when setting size via command
+message-set: "§aYour size set to: §6%size%%"
+
+# Error message (size out of range)
+message-error-range: "§cSize must be between %min%% and %max%%!"
+
+# Error message (invalid number)
+message-error-number: "§cPlease enter a valid number!"
+
+# Message when reloading config
+message-reload: "§aPlugin configuration reloaded!"
+
+# Message when reloading (for console)
+message-reload-console: "FoodSizePlugin configuration reloaded!"
+
+# Message on plugin enable (log)
+message-enable: "FoodSizePlugin enabled!"
+
+# Message on plugin disable (log)
+message-disable: "FoodSizePlugin disabled!"
+
+# Message on error
+message-error: "§cAn error occurred while changing size!"
+
+# Plugin prefix (added to some messages)
+prefix: "§7[§6FoodSize§7] §r"

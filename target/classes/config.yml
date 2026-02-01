@@ -1,0 +1,63 @@
+# FoodSizePlugin Configuration
+# Configure food effects on player size
+# format: <material>: <value>
+
+GOLDEN_APPLE: 0.20           # Golden Apple (+20%)
+ENCHANTED_GOLDEN_APPLE: 0.30  # Enchanted Golden Apple (+30%)
+GOLDEN_CARROT: 0.18          # Golden Carrot (+18%)
+BREAD: 0.10                  # Bread (+10%)
+
+# Cooked Meat
+COOKED_BEEF: 0.12            # Steak (+12%)
+COOKED_PORKCHOP: 0.12        # Cooked Porkchop (+12%)
+COOKED_CHICKEN: 0.10         # Cooked Chicken (+10%)
+COOKED_RABBIT: 0.11          # Cooked Rabbit (+11%)
+COOKED_MUTTON: 0.11          # Cooked Mutton (+11%)
+COOKED_COD: 0.08             # Cooked Cod (+8%)
+COOKED_SALMON: 0.08          # Cooked Salmon (+8%)
+
+# Soups and Stews
+PUMPKIN_PIE: 0.12            # Pumpkin Pie (+12%)
+RABBIT_STEW: 0.14            # Rabbit Stew (+14%)
+BEETROOT_SOUP: 0.12          # Beetroot Soup (+12%)
+MUSHROOM_STEW: 0.10          # Mushroom Stew (+10%)
+SUSPICIOUS_STEW: 0.15        # Suspicious Stew (+15%)
+
+APPLE: -0.10                 # Apple (-10%)
+CARROT: -0.08                # Carrot (-8%)
+BEETROOT: -0.07              # Beetroot (-7%)
+POTATO: -0.06                # Potato (-6%)
+BAKED_POTATO: -0.08          # Baked Potato (-8%)
+MELON_SLICE: -0.07           # Melon Slice (-7%)
+CHORUS_FRUIT: -0.12          # Chorus Fruit (-12%)
+DRIED_KELP: -0.05            # Dried Kelp (-5%)
+SWEET_BERRIES: -0.06         # Sweet Berries (-6%)
+GLOW_BERRIES: -0.07          # Glow Berries (-7%)
+HONEY_BOTTLE: -0.09          # Honey Bottle (-9%)
+
+# Fish
+TROPICAL_FISH: -0.08         # Tropical Fish (-8%)
+PUFFERFISH: -0.10            # Pufferfish (-10%)
+
+# Other
+SPIDER_EYE: -0.11            # Spider Eye (-11%)
+FERMENTED_SPIDER_EYE: -0.13  # Fermented Spider Eye (-13%)
+ROTTEN_FLESH: -0.09          # Rotten Flesh (-9%)
+POISONOUS_POTATO: -0.10      # Poisonous Potato (-10%)
+COOKIE: -0.08                # Cookie (-8%)
+
+BEEF: -0.08                  # Raw Beef (-8%)
+PORKCHOP: -0.07              # Raw Porkchop (-7%)
+CHICKEN: -0.06               # Raw Chicken (-6%)
+RABBIT: -0.07                # Raw Rabbit (-7%)
+MUTTON: -0.07                # Raw Mutton (-7%)
+COD: -0.05                   # Raw Cod (-5%)
+SALMON: -0.05                # Raw Salmon (-5%)
+
+# ===== PLUGIN SETTINGS =====
+settings:
+  min-scale: 0.3              # Minimum size (30%)
+  max-scale: 5.0              # Maximum size (500%)
+  default-scale: 1.0          # Default size (100%)
+  message-enabled: true       # Show messages to player
+  particles-enabled: true     # Show particles on change
